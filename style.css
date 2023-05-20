@@ -1,33 +1,54 @@
-div{
-    background-color: #c7c7c7;
-    padding: 20px;
+html,body{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+}
+
+#card{
+    background-image: url(/images/places/ocean.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#card-content{
+    width: 900px;
     text-align: center;
 }
-
-p{
-    color: black;
-    padding: 50px;
-    margin: 0;
+#card-content ul{
+    display:flex;
+    flex-direction:column;
 }
-
-#container {
-    background-color: #521751;
+#card-content h2{
+    color:white;
+    text-transform:uppercase;
+    font-size: 50px;
+    font-family: "Raleway" , sans-serif;
+    margin: 0px; 
 }
-
-#container p{
+#card-content p{
     color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-bottom: 32px;
 }
-#one{
-    background-color: #943092;
+#card-content li a{
+    text-decoration:none;
+    background-color:rgb(255,251,0);
+    font-size: 24px;
+    color:black;
+    text-align: center;
+    padding:8px 8px;
+    border-radius:6px;
+    box-shadow:2px 4px 8px rgb(68,67,67);
 }
-#two{
-    background-color: #c95bc7;
-    position:absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    box-sizing: border-box;
-}
-#three{
-    background-color: #dd61db;
+#card-content li a:hover{
+    background-color:rgb(255,238,0);
 }

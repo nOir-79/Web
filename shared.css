@@ -3,8 +3,29 @@
   margin: 0;
   padding: 0;
 }
-
-ul nav a{
+ul nav{
+  display:flex;
+  justify-content: space-between;
+}
+#page-logo{
   text-decoration: none;
   text-transform: uppercase;
+  font-family: "Oleo Script",sans-serif;
+  font-size: 50px;
+  color: rgb(245,243,160);
+}
+#links{
+  margin: auto 0;
+}
+#links a{
+  text-align: center;
+  text-decoration:none;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family:"Quicksand",sans-serif;
+  color: rgb(245,243,160);
+}
+#links a:hover{
+  color:rgb(77,77,77);
+  background-color:rgb(255,251,0);
 }
